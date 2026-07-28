@@ -1,0 +1,44 @@
+.flow__box-single {
+    margin: 0 auto var(--space-s);
+    width: 80%;
+
+    border: 3px solid var(--green);
+    border-radius: 100px;
+}
+
+.flow__box {
+    margin: 0 auto var(--space-s);
+    width: 80%;
+
+    border: 3px solid var(--green);
+    border-radius: 10px;
+}
+
+
+.flow__box h3 {
+    border-bottom:var(--border-green);
+
+    line-height: 2;
+}
+
+.flow__box-single h3,
+.flow__box h3 {
+    width: 50%;
+    margin: 0 auto;
+
+    text-align: center;
+    font-size: var(--fs-h3);
+    font-weight: bold;
+    color: var(--green);
+}
+
+.flow__box p {
+    padding: var(--fs-s);
+}
+
+.arrow {
+    width: var(--space-m);
+    margin: 0px auto var(--space-s);
+
+    text-align: center;
+}

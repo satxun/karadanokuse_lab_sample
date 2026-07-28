@@ -1,0 +1,78 @@
+#lab {
+    padding: var(--space-s);
+
+    border:var(--border-green);
+    border-radius: 10px;
+}
+
+#lab p {
+    margin: var(--space-s);
+
+    text-align: center;
+}
+
+
+#lab p span {
+    font-weight: bold;
+    color: var(--orange);
+}
+
+#lab ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#lab h2::before {
+    content: "";
+    display: inline-block;
+
+    width: clamp(29px, 3.5vw, 50px);
+    height: clamp(29px, 3.5vw, 50px);
+    margin-top: -5px;
+
+    background-image: url('img/furasuko__img.png');
+    background-size: cover;
+    vertical-align: middle;
+}
+
+
+
+#lab h3 span {
+    font-size: var(--fs-h1);
+    color: var(--orange);
+}
+
+.lab__point {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: var(--space-m);
+}
+
+.lab__point-box {
+    width: 30%;
+    padding: 10px;
+
+    border: 1px solid var(--green);
+    border-radius: 10px;
+
+}
+
+.lab__point-box h4 {
+    font-size: var(--fs-h4);
+    color: var(--green);
+    font-weight: bold;
+    text-align: center;
+}
+
+.lab__point-box img {
+    width: 40%;
+    margin: var(--space-s) auto;
+}
+
+#lab .lab__point-box p {
+    width: 90%;
+    margin: 0 auto;
+
+    text-align: left;
+}

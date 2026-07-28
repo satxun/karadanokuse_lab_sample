@@ -1,0 +1,23 @@
+#booking {
+    border:var(--border-green);
+    border-radius: 10px;
+    padding-bottom: var(--space-m);
+}
+
+.booking__txt{
+    margin-bottom: var( --space-m);
+}
+
+.booking__img{
+    display: flex;
+justify-content: space-between;
+
+width: 90%;
+margin: 0 auto;
+
+}
+
+.booking__img figure{
+    width: 45%;
+    text-align: center;
+}

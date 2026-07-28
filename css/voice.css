@@ -1,0 +1,32 @@
+
+.voice__box,
+.voice__box-r {
+     display: flex;
+    justify-content: center;
+
+   margin-bottom: var(--space-s);
+    padding: var(--space-s);
+
+    border: var(--border-green);
+    border-radius: 10px;   
+}
+
+.voice__box-r {
+    flex-direction: row-reverse;
+}
+
+.voice__txt {
+    width: 60%;
+}
+
+.voice__txt h3 {
+    font-size: var(--fs-h3);
+}
+
+.voice__img {
+    width: 10%;
+    padding: var(--space-ss);
+
+    border:var(--border-green);
+    border-radius: 10px;
+}

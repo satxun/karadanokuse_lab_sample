@@ -1,0 +1,19 @@
+/* -----ここからお悩み */
+
+.nayami__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.nayami__item li {
+    width: 30%;
+    padding: 20px;
+    margin-bottom: var(--space-m);
+
+    text-align: center;
+    font-size: var(--fs-s);
+    border:var(--border-green);
+    border-radius: 10px;
+}

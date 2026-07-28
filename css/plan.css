@@ -1,0 +1,66 @@
+.plan__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan__box {
+    width: 30%;
+    padding: var(--space-s);
+
+    margin-bottom: var(--space-m);
+    border:var(--border-green);
+    border-radius: 10px;
+}
+
+.plan__box-sail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: var(--space-s);
+
+    border:var(--border-green);
+    border-radius: 10px;
+}
+
+.plan__txt {
+    padding: var(--fs-s);
+}
+
+.plan__txt h3 {
+    font-size: var(--fs-h4);
+    color: var(--green);
+}
+
+.plan__txt h3,
+.plan__txt p {
+    text-align: center;
+}
+
+.plan__sali-txt span {
+    text-decoration: line-through;
+}
+
+.plan__sali-price {
+    margin-bottom: var(--space-l);
+    font-size: var(--fs-h4);
+}
+
+.plan__sali-price-last {
+    margin-bottom: 0;
+    font-size: var(--fs-h4);
+}
+
+.plan__sali-price span,
+.plan__sali-price-last span {
+    color: var(--red);
+}
+
+.plan__img {
+    width: 90%;
+    margin: 0 auto var(--space-s);
+}
+
+.plan__sali-img {
+    width: 50%;
+}

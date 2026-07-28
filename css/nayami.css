@@ -17,3 +17,12 @@
     border:var(--border-green);
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+ 
+    .nayami__item li {
+        width: 48%;
+        padding: 5px;
+        white-space: pre-line;
+    }
+}

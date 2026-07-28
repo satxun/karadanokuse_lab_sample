@@ -76,3 +76,22 @@
 
     text-align: left;
 }
+
+@media (max-width: 768px) {
+ 
+    #lab ul {
+        display: block;
+        text-align: center;
+        font-size: var(--fs-body);
+    }
+
+    .lab__point {
+        display: block;
+        font-size: var(--fs-body);
+    }
+
+    .lab__point-box {
+        width: 80%;
+        margin: 0 auto var(--space-m);
+    }
+}

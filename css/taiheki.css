@@ -44,3 +44,42 @@
     opacity: .8;
     transform: translateY(-2px);
 }
+
+@media (max-width: 768px) {
+ 
+
+    #taiheki h2 {
+        width: 100%;
+        margin: 0 auto 10px;
+    }
+
+    .taiheki__item h3 {
+        margin-bottom: 5px;
+    }
+
+    .taiheki__box {
+        display: block;
+        justify-content: center;
+    }
+
+    .taiheki__item {
+        width: 100%;
+        margin-bottom: var(--space-s);
+    }
+
+    .taiheki__item p {
+        line-height: 1.7;
+    }
+
+    .taiheki__item__txt {
+        font-size: var(--fs-body);
+    }
+
+    .taiheki__img {
+        margin: 0 auto var(--space-s);
+    }
+
+    .taiheki__link {
+        width: 100%;
+    }
+}

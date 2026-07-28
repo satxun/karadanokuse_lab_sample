@@ -42,3 +42,31 @@
 
     text-align: center;
 }
+
+ 
+@media (max-width: 768px) {
+    #flow h2 {
+        margin-bottom: var(--space-s);
+    }
+
+    .flow__box-single,
+    .flow__box {
+        width: 100%;
+    }
+
+
+    .flow__box h3 {
+        border-bottom: 3px solid var(--green);
+        line-height: 2;
+
+    }
+
+    .flow__box-single h3,
+    .flow__box h3 {
+        width: 90%;
+    }
+
+    .flow__box p {
+        font-size: var(--fs-body);
+    }
+}

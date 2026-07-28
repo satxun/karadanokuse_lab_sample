@@ -102,3 +102,40 @@
     transform: translate(-50%, -50%) rotate(90deg);
     opacity: 0;
 }
+@media (max-width: 768px) {
+
+    .faq-item {
+        overflow: hidden;
+
+        margin-bottom: var(--space-s);
+
+        border-radius: 10px;
+        border: 3px solid #2b6945;
+    }
+
+    .faq-question {
+        width: 100%;
+        font-size: var(--fs-s);
+    }
+
+    .faq-question span {
+        color: var(--green);
+    }
+
+    .faq-answer {
+        overflow: hidden;
+
+        max-height: 0;
+  
+        transition: max-height .5s ease;
+    }
+
+    .faq-answer-inner {
+        width: 90%;
+        margin: 0 auto;
+        padding: var(--space-ss);
+
+        font-size: var(--fs-h4);
+    }
+
+}

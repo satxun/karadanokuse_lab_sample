@@ -70,3 +70,28 @@ iframe {
 .footer__line-link a {
     color: var(--white);
 }
+
+@media (max-width: 768px) {
+
+    .footer__line-link a {
+        font-size: var(--fs-s);
+    }
+
+    .footer__txt__inner,
+    .footer__inner {
+        margin: 0 auto var(--space-s);
+        display: block;
+
+    }
+
+    .footer__img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .footer__txt__inner,
+    .footer__txt,
+    address {
+        width: 100%;
+    }
+}

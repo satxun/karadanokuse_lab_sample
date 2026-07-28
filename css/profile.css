@@ -84,4 +84,11 @@
         padding: 10px;
     }
 
+.message__txt{
+    width: 95%;
+    margin: 0 auto;
+
+     font-size: var(--fs-body);
+}
+
 }

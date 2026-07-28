@@ -21,3 +21,23 @@ margin: 0 auto;
     width: 45%;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+
+
+.booking__img{
+    display: block;
+}
+
+.booking__img figure{
+    width: 100%;
+    text-align: center;
+     margin-bottom: var(--space-m);
+}
+
+
+.booking__img figcaption{
+    font-size: var(--fs-h3);
+   
+}
+}

@@ -30,3 +30,28 @@
     border:var(--border-green);
     border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+
+    .voice__box,
+    .voice__box-r {
+        display: block;
+    }
+
+    .voice__txt {
+        width: 100%;
+    }
+
+    .voice__txt h3 {
+        font-size: var(--fs-h3);
+    }
+
+    .voice__img {
+        width: 50%;
+        margin: 0 auto;
+        padding: var(--space-ss);
+        
+        border: 3px solid var(--green);
+        border-radius: 10px;
+    }
+}

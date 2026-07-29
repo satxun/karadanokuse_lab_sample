@@ -1,7 +1,6 @@
 #access {
     border:var(--border-green);
     border-radius: 10px;
-    padding-bottom: var(--space-m);
 }
 
 .access__txt{

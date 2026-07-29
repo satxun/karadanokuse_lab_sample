@@ -40,8 +40,8 @@ address p {
     color: var(--white);
 }
 
-.map {
-    width: 80%;
+footer .map {
+    width: 100%;
     height: auto;
     margin: var(--space-ss) auto;
 }

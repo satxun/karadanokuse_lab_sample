@@ -59,4 +59,10 @@
         border: 3px solid var(--green);
         border-radius: 10px;
     }
+
+    .voice__box .voice__img,
+.voice__box-r .voice__img{
+    margin-right: auto;
+}
+
 }

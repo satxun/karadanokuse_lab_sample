@@ -33,7 +33,7 @@
 }
 
 .flow__box p {
-    padding: var(--fs-s);
+    padding: var(--space-s) var(--space-m);
 }
 
 .arrow {

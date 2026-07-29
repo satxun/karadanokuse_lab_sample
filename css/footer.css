@@ -46,10 +46,6 @@ address p {
     margin: var(--space-ss) auto;
 }
 
-iframe {
-    width: 100%;
-}
-
 .footer__line-link {
     width: 100%;
     margin: var(--space-s) auto 0;

@@ -81,13 +81,12 @@
  
     #lab ul {
         display: block;
+
         text-align: center;
-        font-size: var(--fs-body);
     }
 
     .lab__point {
         display: block;
-        font-size: var(--fs-body);
     }
 
     .lab__point-box {

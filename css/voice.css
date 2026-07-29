@@ -1,14 +1,13 @@
-
 .voice__box,
 .voice__box-r {
-     display: flex;
+    display: flex;
     justify-content: center;
 
-   margin-bottom: var(--space-s);
+    margin-bottom: var(--space-s);
     padding: var(--space-s);
 
     border: var(--border-green);
-    border-radius: 10px;   
+    border-radius: 10px;
 }
 
 .voice__box-r {
@@ -24,12 +23,18 @@
 }
 
 .voice__img {
-    width: 10%;
-    padding: var(--space-ss);
-
-    border:var(--border-green);
+    width: 15%;
+    border: var(--border-green);
     border-radius: 10px;
 }
+.voice__box .voice__img{
+    margin-left: 100px;
+}
+
+.voice__box-r .voice__img{
+    margin-right: 100px;
+}
+
 
 @media (max-width: 768px) {
 
@@ -48,9 +53,9 @@
 
     .voice__img {
         width: 50%;
-        margin: 0 auto;
+        margin: var(--space-ss) auto;
         padding: var(--space-ss);
-        
+
         border: 3px solid var(--green);
         border-radius: 10px;
     }

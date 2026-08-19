@@ -40,6 +40,7 @@
     --space-xl: 120px;
 
    --border-green: 3px solid var(--green);
+   --border-green_s: 1px solid var(--green);
 }
 
 html {
@@ -59,10 +60,11 @@ body {
 }
 
 .wrap {
-    max-width: 1300px;
-    margin: 0 auto;
+    width:min(100% - 32px,1300px);
+    margin-inline:auto;
     padding-top: 80px;
 }
+
 
 h1 {
     color: var(--green);
@@ -71,7 +73,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: var(--space-m);
+    margin-bottom: var(--space-s);
 
     font-size: var(--fs-h2);
     color: var(--green);

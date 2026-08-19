@@ -1,15 +1,15 @@
 /* -----ここからお悩み */
 
-.nayami__item {
+.nayami__box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 
-.nayami__item li {
-    width: 30%;
-    padding: 20px;
+.nayami__item {
+    width: 24%;
+    padding: 10px;
     margin-bottom: var(--space-m);
 
     text-align: center;
@@ -18,11 +18,26 @@
     border-radius: 10px;
 }
 
+.nayami__item img{
+    width: 60%;
+    margin: var(--fs-s) auto;
+}
+
+.nayami__item figcaption{
+    font-size: var(--fs-h4);
+    white-space: pre-line;
+}
+
+#nayami span{
+    color: var(--orange);
+    font-size: var(--fs-h2);
+}
+
 @media (max-width: 768px) {
  
-    .nayami__item li {
+    .nayami__item {
         width: 48%;
         padding: 5px;
-        white-space: pre-line;
+        /* white-space: pre-line; */
     }
 }

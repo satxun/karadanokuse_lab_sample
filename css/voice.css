@@ -23,6 +23,14 @@
     font-size: var(--fs-h4);
 }
 
+table tr{
+   border-spacing:0  100px;
+}
+
+th{
+    vertical-align: top;
+}
+
 .voice__name{
     width: 70%;
 }

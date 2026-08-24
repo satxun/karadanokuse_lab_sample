@@ -63,6 +63,10 @@
     white-space: pre-line;
 }
 
+.message__txt a{
+    border-bottom: 1px solid;
+}
+
 @media (max-width: 768px) {
 
  #profile {

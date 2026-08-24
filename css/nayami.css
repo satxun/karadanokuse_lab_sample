@@ -40,7 +40,7 @@
     }
 
 .nayami__item figcaption{
-    font-size: var(--fs-body);
+    font-size: var(--fs-s);
 }
 
 }

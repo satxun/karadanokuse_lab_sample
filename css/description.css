@@ -35,10 +35,17 @@ position: relative;
     color: var(--orange);
 }
 
-.description__txt p {
+.description__txt:nth-child(2) p {
     font-size: var(--fs-s);
     line-height: 1.7;
     margin-bottom: var(--space-s);
+}
+
+.description__txt-catchcopy{
+    font-size: var(--fs-h3);
+     font-family: serif;
+    font-weight: bold;
+    margin-top: var(--space-s);
 }
 
 @media (max-width: 768px) {

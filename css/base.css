@@ -32,6 +32,7 @@
 --fs-h4: clamp(18px, 2vw, 24px);
 --fs-body: clamp(16px, 1.4vw, 18px);
 --fs-s: clamp(14px, 1.2vw, 16px);
+--fs-ss: clamp(12px, 1vw, 14px);
 
     /* Space */
     --space-ss: 10px;

@@ -37,13 +37,21 @@
     text-align: center;
 }
 
-.plan__sali-txt span {
-    text-decoration: line-through;
+.plan__txt--small{
+ font-size: var(--fs-ss);
 }
+
+
+.plan__txt-sali span {
+    text-decoration: line-through;
+     
+}
+
 
 .plan__sali-price {
     margin-bottom: var(--space-l);
     font-size: var(--fs-h4);
+  
 }
 
 .plan__sali-price-last {

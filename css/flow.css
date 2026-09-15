@@ -17,7 +17,7 @@
 .flow__box-single h3,
 .flow__box h3 {
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto var(--space-s);
 
     text-align: center;
     font-size: var(--fs-h3);
@@ -27,6 +27,22 @@
 
 .flow__box p {
     padding: var(--space-s) var(--space-m);
+}
+
+.flow__item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+     margin-bottom: var(--space-s);
+    }
+
+.flow__item p{
+    width: 60%;
+}
+
+.flow__img{
+    width: 30%;
 }
 
 .arrow {
@@ -49,17 +65,24 @@
 
 
     .flow__box h3 {
+        width: 90%;
         border-bottom: 3px solid var(--green);
         line-height: 2;
 
     }
 
-    .flow__box-single h3,
-    .flow__box h3 {
-        width: 90%;
-    }
-
     .flow__box p {
         font-size: var(--fs-body);
     }
+
+    .flow__item{
+        display: block;
+    }
+
+    .flow__item p,
+    .flow__img{
+        width: 90%;
+        margin-inline: auto;
+    }
+
 }

@@ -11,9 +11,9 @@ position: relative;
 
 .hokkaidou__img{
     position: absolute;
-    top: 10px;
+    top: 0%;
     left: 0%;
-    width: 12%;
+    width: 13.5%;
 }
 
 .description__txt {

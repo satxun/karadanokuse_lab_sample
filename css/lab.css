@@ -32,7 +32,7 @@
     width: clamp(25px, 3.4vw, 50px);
     height: clamp(25px, 3.4vw, 50px);
 
-    background-image: url('../img/furasuko_img.png');
+    background-image: url('../img_WebP/furasuko_img.webp');
     background-size: cover;
     vertical-align: bottom;
 }

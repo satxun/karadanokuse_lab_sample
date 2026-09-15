@@ -31,7 +31,7 @@
     height: var(--fs-h3);
     margin-right: var(--space-ss);
 
-    background-image: url('img/Q.png');
+    background-image: url('../img_WebP/Q.webp');
     background-size: contain;
     background-repeat: no-repeat;
 }

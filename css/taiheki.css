@@ -20,6 +20,8 @@
 
 .taiheki__item__txt {
     text-align: center;
+    color: var(--orange);
+    font-weight: bold;
 }
 
 .taiheki__img {

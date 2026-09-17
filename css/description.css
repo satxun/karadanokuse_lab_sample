@@ -41,12 +41,7 @@ position: relative;
     margin-bottom: var(--space-s);
 }
 
-.description__txt-catchcopy{
-    font-size: var(--fs-h3);
-     font-family: serif;
-    font-weight: bold;
-    margin-top: var(--space-s);
-}
+
 
 @media (max-width: 768px) {
  
